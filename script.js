@@ -1,4 +1,4 @@
-function getBtnfun() {  
+ let getBtnfun = function getBtnfun() {  
     // let apiKey ="8cfa75d"
      let inputBox = document.getElementById('inputBox').value;
      let card = document.getElementById("card");
