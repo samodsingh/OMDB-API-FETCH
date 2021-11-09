@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMDBAPI PROJECT</title>
+    <style>
+        .container{
+            font-size: 30px;
+            text-align: center;
+        }
+        #mainDiv{
+            width: 300px;
+            margin: 10px;
+        }
+     
+        #card{
+            width: 100%;
+            /* background-color: cornflowerblue; */
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            padding: 20px;
+         
+          
+        }
+      
+    </style>
+</head>
+<body> 
+    
+
+<div class="container">
+
+    <label>
+        Input movie name :-
+    </label>
+    <input id="inputBox" type="text" placeholder="Enter movie name..." style="font-size: 20px;">
+    <button id="getBtn" onclick="getBtnfun()" style="font-size: large;background-color: rgb(32, 139, 211);border-radius: 4px;">Search Movie</button><br>
+    <br>
+    
+    <div id ="card"> </div>
+</div>
+    <script src="/script.js"></script>
+</body>
+</html>
